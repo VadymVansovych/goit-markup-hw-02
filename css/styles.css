@@ -1,254 +1,147 @@
-  body {
-        font-family: 'Roboto', sans-serif;
-        color: #434455;
-        background-color: #FFFFFF;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .logo {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-    font-size: 18px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    transition: color 0.3s ease;
-    }
-    .studio {
-        font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    transition: color 0.3s ease;
-    }
-    .studio{
-        font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    transition: color 0.3s ease;
-    }
-    .studio:hover,
-    .studio:focus {
-    color: #404bbf;
-    font-weight: 500;
-    color:#2e2f42
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-    .portfolio{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    transition: color 0.3s ease;
-}
-    .portfolio:hover,
-    .portfolio:focus {
-    color: #404bbf;
-    font-weight: 500;
-    color:#2e2f42
-}
-.contacts{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    transition: color 0.3s ease;
-}
-    .contacts:hover,
-    .contacts:focus {
-    color: #404bbf;
-    font-weight: 500;
-    color:#2e2f42
-    }
-    .address{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    }
-    .gmail{
-    font-size:16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    transition: color 0.3s ease;
-    }
-    .gmail:hover
-    .gmail:focus{
-        color:#404bbf
-    }
-    .header-head{
-        background-color: #ffffff;
-    }
 
-    header {
-        background-color: #282C36;
-        color: #fff;
-        padding: 1rem;
-    }
+/* Общие стили */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
 
-    .hero {
-        background-color: #2E2F42;
-        color: #fff;
-        font-family: Roboto;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 60px;
-        letter-spacing: 0.02em;
-        text-align: center;
-        
-    
-    }
-    
-    .hero h1 {
-        Size: 56px;
-        width: 496px;
-    height: 120px;
-    top: 260px;
-    left: 472px;
-    gap: 0px;
-    opacity: 0px;
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Стили шапки */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo {
+    float: left;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-links {
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    float: right;
+    margin-right: 20px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Стили секций */
+.section-one {
+    background-color: #f8f8f8;
     text-align: center;
-    
-    }
-    
-    .hero button {
-        background-color: #4D5AE5;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.04em;
-        text-align: left;
-        
-    }
-    
-    
-    
-    
-    
-    nav ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    nav ul li {
-        display: inline;
-        margin-right: 1rem;
-    }
-    
-    nav ul li a {
-        color: #fff;
-        text-decoration: none;
-    }
-    
-    nav div a {
-        color: #fff;
-        margin-left: 1rem;
-        text-decoration: none;
-    }	
+    padding: 100px 0;
+}
 
-    .about {
-        background-color: rgb(255, 255, 255);
-        padding: 2rem 1rem;
-    }
+.section-one h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
 
-    .about .container {
-        display: flex;
-        justify-content: space-between;
-    }
+.cta-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
-    .about article {
-        width: 22%;
-    }
+.cta-button:hover {
+    background-color: #555;
+}
 
-    .about article h2 {
-        font-size: 24px;
-    }
+/* Стили секции с услугами */
+.section-two {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
 
-    .team {
-        background-color:#F4F4FD;
-        padding: 2rem 1rem;
-        text-align: center;
-    }
+.section-two h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
 
-    .team-cards {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-    }
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
-    .team-card {
-        width: 22%;
-        text-align: center;
-    }
+.services-list {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
 
-    .team-card img {
-        width: 100%;
-        height: auto;
-    }
+.services-list li {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
 
-    .team-card h3 {
-        font-size: 20px;
-    }
+.services-list h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
 
-    .portfolio {
-        background-color: #ffffff;
-        padding: 2rem 1rem;
-        text-align: center;
-    }
+.services-list p {
+    font-size: 1rem;
+}
 
-    .portfolio-list {
-        list-style-type: none;
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .portfolio-item {
-        width: 30%;
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-
-    .portfolio-item img {
-        width: 100%;
-        height: auto;
-    }
-
-    footer {
-        background-color: #2E2F42;
-        color: #fff;
-        text-align: center;
-        padding: 1rem;
-    }
-    .logo-footer{
-        width: 115px;
-    height: 24px;
-    top: 3088px;
-    left: 156px;
-    gap: 0px;
-    opacity: 0px;
-
-
-
-
-    }
-    .text-footer{
-        width: 264px;
-        height: 72px;
-        top: 3128px;
-        left: 156px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-    }
+/* Стили подвала */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 
