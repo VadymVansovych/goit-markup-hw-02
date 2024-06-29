@@ -1,135 +1,102 @@
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+<header>
+    <nav>
+        <a href="./index.html" class="logo">Studio<span class="logo-span">Studio</span></a>
+        <ul>
+            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <address class="contact-info">
+        <ul>
+            <li><a href="mailto:info@example.com" class="contact-link">info@example.com</a></li>
+            <li><a href="tel:+1234567890" class="contact-link">+1 234 567 890</a></li>
+        </ul>
+    </address>
+</header>
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
+<section class="hero-section">
+    <h1 class="hero-title">Welcome to Our Studio</h1>
+    <button class="hero-button">Get Started</button>
+</section>
 
-.logo-span {
-    color: #2e2f42;
-}
+<section class="features-section">
+    <h2 class="section-title">Our Features</h2>
+    <ul>
+        <li>
+            <h3 class="feature-title">Feature One</h3>
+            <p class="feature-description">Description for feature one.</p>
+        </li>
+        <li>
+            <h3 class="feature-title">Feature Two</h3>
+            <p class="feature-description">Description for feature two.</p>
+        </li>
+        <li>
+            <h3 class="feature-title">Feature Three</h3>
+            <p class="feature-description">Description for feature three.</p>
+        </li>
+        <li>
+            <h3 class="feature-title">Feature Four</h3>
+            <p class="feature-description">Description for feature four.</p>
+        </li>
+    </ul>
+</section>
 
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
+<section class="projects-section">
+    <h2 class="section-title">Our Projects</h2>
+    <ul>
+        <li>
+            <img src="./images/banking.jpg" alt="Banking App" width="360">
+            <h3 class="project-title">Banking App</h3>
+            <p class="project-description">App</p>
+        </li>
+        <li>
+            <img src="./images/cashless.jpg" alt="Cashless Payment" width="360">
+            <h3 class="project-title">Cashless Payment</h3>
+            <p class="project-description">Marketing</p>
+        </li>
+        <li>
+            <img src="./images/meditation.jpg" alt="Meditation App" width="360">
+            <h3 class="project-title">Meditation App</h3>
+            <p class="project-description">App</p>
+        </li>
+        <li>
+            <img src="./images/taxi.jpg" alt="Taxi Service" width="360">
+            <h3 class="project-title">Taxi Service</h3>
+            <p class="project-description">Marketing</p>
+        </li>
+        <li>
+            <img src="./images/screen.jpg" alt="Screen Illustrations" width="360">
+            <h3 class="project-title">Screen Illustrations</h3>
+            <p class="project-description">Design</p>
+        </li>
+        <li>
+            <img src="./images/online.jpg" alt="Online Courses" width="360">
+            <h3 class="project-title">Online Courses</h3>
+            <p class="project-description">Marketing</p>
+        </li>
+    </ul>
+</section>
 
-.nav-link:hover, .nav-link:focus {
-    color: #404bbf;
-}
+<footer class="footer">
+   <logo class="logo">WEB<span class="span-studio" style="color: #2E2F42;">STUDIO</span></logo>
+            <p class="text-footer">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+</footer>
 
-.contact-info {
-    font-style: normal;
-}
-
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-link:hover, .contact-link:focus {
-    color: #404bbf;
-}
-
-.hero-section {
-    background-color: #2e2f42;
-    text-align: center;
-}
-
-.hero-title {
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-
-.hero-button {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.hero-button:hover, .hero-button:focus {
-    background-color: #404BBF;
-}
-
-.features-section {
-    background-color: #F4F4FD;
-}
-
-.section-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.feature-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.feature-description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.projects-section {
-    background-color: #FFFFFF;
-}
-
-.project-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.project-description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #2e2f42;
-    color: #FFFFFF;
-}
+</body>
+</html>
 
 
