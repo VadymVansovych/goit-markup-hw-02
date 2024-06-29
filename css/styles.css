@@ -1,8 +1,82 @@
   body {
         font-family: 'Roboto', sans-serif;
-        color: #333;
+        color: #434455;
+        background-color: #FFFFFF;
         margin: 0;
         padding: 0;
+    }
+    
+    .logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    transition: color 0.3s ease;
+    }
+    .studio {
+        font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 0.3s ease;
+    }
+    .studio{
+        font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 0.3s ease;
+    }
+    .studio:hover,
+    .studio:focus {
+    color: #404bbf;
+    font-weight: 500;
+    color:#2e2f42
+}
+    .portfolio{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 0.3s ease;
+}
+    .portfolio:hover,
+    .portfolio:focus {
+    color: #404bbf;
+    font-weight: 500;
+    color:#2e2f42
+}
+.contacts{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 0.3s ease;
+}
+    .contacts:hover,
+    .contacts:focus {
+    color: #404bbf;
+    font-weight: 500;
+    color:#2e2f42
+    }
+    .address{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+    .gmail{
+    font-size:16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 0.3s ease;
+    }
+    .gmail:hover
+    .gmail:focus{
+        color:#404bbf
     }
     .header-head{
         background-color: #ffffff;
