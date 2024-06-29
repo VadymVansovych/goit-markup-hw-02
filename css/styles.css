@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.header-head{
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #282C36;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+nav div {
+    margin-left: auto;
+}
+
+nav div a {
+    color: #434455;
+    text-decoration: none;
+    margin-left: 1rem; /* отступ между элементами "почта" и "номер телефона" */
+}   
+
+.hero {
+    background-color: #2E2F42;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 56px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.hero button {
+    background-color: #4D5AE5;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.about {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about article {
+    width: 22%;
+}
+
+.about article h2 {
+    font-size: 24px;
+}
+
+.team {
+    background-color:#F4F4FD;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.team-card {
+    width: 22%;
+    text-align: center;
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+}
+
+.team-card h3 {
+    font-size: 20px;
+}
+
+.portfolio {
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.portfolio-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    width: 30%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #2E2F42;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.logo-footer{
+    width: 115px;
+height: 24px;
+top: 3088px;
+left: 156px;
+gap: 0px;
+opacity: 0px;
+
+
+
+
+}
+.text-footer{
+    width: 264px;
+    height: 72px;
+    top: 3128px;
+    left: 156px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
