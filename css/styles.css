@@ -4,14 +4,13 @@
     box-sizing: border-box;
 }
 
-/* Body styles */
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 
-/* Header styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -93,7 +92,7 @@ section {
     text-transform: capitalize;
 }
 
-/* Button styles */
+
 .btn-primary {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -113,7 +112,6 @@ section {
     background-color: #404BBF;
 }
 
-/* List styles */
 ul {
     list-style-type: none;
 }
